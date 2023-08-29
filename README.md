@@ -1,6 +1,6 @@
 # Website URLs Finder 🕷️
 
-This Python script is a spider web crawler designed to extract URLs and subdomains from a given starting URL. It uses the `requests` library to fetch web pages, `BeautifulSoup` for HTML parsing, and regular expressions to extract relevant information.
+This Python script is a spider that crawls a given website, designed to extract URLs and subdomains from a given starting URL. It uses the `requests` library to fetch web pages, `BeautifulSoup` for HTML parsing, and regular expressions to extract relevant information.
 
 ## Getting Started 🚀
 
