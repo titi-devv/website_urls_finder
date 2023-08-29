@@ -22,18 +22,16 @@ The script will initiate the crawling process and extract URLs and subdomains re
 
 ## Features 🛠️
 
-Extracts URLs and subdomains from a starting URL.
-Filters out irrelevant URLs and subdomains such as JavaScript links and anchor tags.
-Removes duplicate URLs.
-Displays extracted and filtered URLs.
-Customization
-You can modify the behavior of the script by adjusting the regular expressions or by extending the class to include additional functionality.
+- Extracts URLs and subdomains from a starting URL.
+- Filters out irrelevant URLs and subdomains such as JavaScript links and anchor tags.
+- Removes duplicate URLs.
+- Save locally extracted and filtered URLs.
 
 ## Credits 🙌
 
-The script utilizes the requests library for making HTTP requests: Requests
-HTML parsing is performed using BeautifulSoup: BeautifulSoup
-Regular expressions are used for URL extraction and manipulation.
+- The script utilizes the `requests` library for making HTTP requests: [Requests](https://docs.python-requests.org/en/master/)
+- HTML parsing is performed using `BeautifulSoup`: [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)
+- Regular expressions are used for URL extraction and manipulation.
 
 ## License 📄
 
