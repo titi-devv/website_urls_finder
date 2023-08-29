@@ -10,7 +10,7 @@ This Python script is a spider web crawler designed to extract URLs and subdomai
 
 3. Clone this repository.
 
-## Usage
+## Usage 📋
 
 Run the `index.py` script with the URL you want to start crawling from as a command-line argument. For example:
 
