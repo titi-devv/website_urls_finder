@@ -26,7 +26,7 @@ def main(url):
                 urls = crawler.get_all_urls
 
                 urls = {
-                    "result": urls
+                    "urls": urls
                 }
                 with open(f"{domain_name}.json", 'w') as json_file:
                     json.dump(urls, json_file)
