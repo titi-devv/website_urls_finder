@@ -18,19 +18,20 @@ def main(url):
         print(f"Extracted domain: {domain_name}")
         try:
             if requests.get(url).status_code == 200:
-                # sitemap_finder = SitemapFinder(url)
-                # urls = sitemap_finder.get_all_urls
-                # if len(urls) == 0:
-                crawler = WebCrawler(url)
-                print('crawler')
-                urls = crawler.get_all_urls
+                sitemap_finder = SitemapFinder(url)
+                urls = sitemap_finder.get_all_urls
+                if len(urls) == 0:
+                    print('Not sitemap found, trying with web crawler')
+                    crawler = WebCrawler(url)
+                    urls = crawler.get_all_urls
 
-                urls = {
+                formated_urls = {
                     "urls": urls
                 }
                 with open(f"{domain_name}.json", 'w') as json_file:
-                    json.dump(urls, json_file)
-                print('urls', urls)
+                    json.dump(formated_urls, json_file)
+                print(
+                    f'🎉 A total of {len(urls)} have been saved at {domain_name}.json')
         except:
             print('Error')
     else:

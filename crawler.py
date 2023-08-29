@@ -20,7 +20,7 @@ def get_domain_name(url):
 class SitemapFinder:
     def __init__(self, url):
         self.url = url
-        self.urls = self.sitemap_urls(url)
+        self.get_all_urls = self.sitemap_urls(url)
 
     def sitemap_urls(self, url):
         parsed_url = urlparse(url)
