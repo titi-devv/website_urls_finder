@@ -10,7 +10,7 @@ This Python script is a spider that crawls a given website, designed to extract 
    
 3. Go in the root folder: `cd website_urls_finder`
    
-4. Install the required packages using the following command: `pip install -r requirements.txt`.
+4. Install the required packages using the following command: `pip install -r requirements.txt`
 
 ## Usage 📋
 
