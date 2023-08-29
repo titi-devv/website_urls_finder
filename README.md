@@ -6,9 +6,9 @@ This Python script is a spider web crawler designed to extract URLs and subdomai
 
 1. Make sure you have Python installed.
 
-2. Install the required packages using the following command: `pip install -r requirements.txt`
+2. Clone this repository.
 
-3. Clone this repository.
+3. Install the required packages using the following command: `pip install -r requirements.txt`.
 
 ## Usage 📋
 
