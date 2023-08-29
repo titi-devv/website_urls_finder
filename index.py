@@ -5,7 +5,7 @@ from crawler import SitemapFinder, WebCrawler, get_domain_name
 
 """
 # Find a format every URLs from sitemaps
-This is a tool developed by Thibot
+This is a tool developed by titi
 
 It will find your sitemap file. It will take few seconds.
 """
