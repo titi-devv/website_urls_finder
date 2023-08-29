@@ -6,9 +6,11 @@ This Python script is a spider web crawler designed to extract URLs and subdomai
 
 1. Make sure you have Python installed.
 
-2. Clone this repository.
-
-3. Install the required packages using the following command: `pip install -r requirements.txt`.
+2. Clone this repository: `git clone https://github.com/thib-web3/website_urls_finder.git`
+   
+3. Go in the root folder: `cd website_urls_finder`
+   
+4. Install the required packages using the following command: `pip install -r requirements.txt`.
 
 ## Usage 📋
 
